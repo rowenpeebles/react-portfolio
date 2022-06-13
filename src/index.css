@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600&display=swap');
 
 * {
   margin: 0;
@@ -11,9 +11,9 @@
 }
 
 :root {
-  --color-bg:#282935;
-  --color-bg-variant: #282935;
-  --color-primary: #59f68d;
+  --color-bg: #282935;
+  --color-bg-variant: #383a59;
+  --color-primary: #c9a8fa;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
@@ -34,7 +34,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Source Code Pro", monospace;
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
